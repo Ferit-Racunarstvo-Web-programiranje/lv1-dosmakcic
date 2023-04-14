@@ -3171,3 +3171,68 @@ color: #000000;
  
 
 
+
+
+
+
+ @media screen and (max-width: 760px)  {
+    .header, nav{
+        flex-direction: column;
+    }
+
+    .MySkills{
+        flex-direction: column;
+    }
+    .MyPortfolio
+    {
+        flex-direction: column;
+    }
+    h1{
+        font-weight: bold;
+        color: var(--secondary-color);
+        font-size: 20.6667px;
+    
+    }
+    .GetInTouch
+    {
+    
+
+        width: 150.67px;
+        height: 49.33px;
+    }
+    
+    .contact-button
+    {
+
+        width: 150.67px;
+        height: 49.33px;
+    }
+
+    .header-container{
+        height: 14em;
+    }
+
+    #home {
+   
+        flex-direction: column;
+        height: auto;
+
+        }
+    #AboutMe {
+      
+            flex-direction: column;
+            height: auto;
+        }
+        #MySKillSection{
+
+            height: auto;  
+           
+        }
+        #Testemonial {
+
+            height: auto;
+
+        }
+        
+
+}
